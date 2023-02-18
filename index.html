@@ -20,7 +20,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <main>
+    <main class="margin">
       <header>
         <div>
           <p>Notifications</p>
@@ -30,7 +30,7 @@
       </header>
 
       <ol>
-        <li>
+        <li class="unread">
           <div>
             <img
               src="./assets/images/avatar-mark-webber.webp"
@@ -40,10 +40,132 @@
           <div>
             <div>
               <h3>Mark Webber</h3>
-              <p>reacted to your recent post <b>My first tournament today!</b></p>
-              <button id="mark-as-read"></button>
+              <p>
+                reacted to your recent post
+                <b class="post">My first tournament today!</b>
+              </p>
+              <button class="mark-as-read"></button>
             </div>
-            <p>1m ago</p>
+            <p class="timeNotification">1m ago</p>
+            <p></p>
+          </div>
+        </li>
+
+        <li class="unread">
+          <div>
+            <img
+              src="./assets/images/avatar-angela-gray.webp"
+              alt="User Profile Image"
+            />
+          </div>
+          <div>
+            <div>
+              <h3>Angela Gray</h3>
+              <p>followed you <b></b></p>
+              <button class="mark-as-read"></button>
+            </div>
+            <p class="timeNotification">5m ago</p>
+          </div>
+          <p></p>
+        </li>
+
+        <li class="unread">
+          <div>
+            <img
+              src="./assets/images/avatar-jacob-thompson.webp"
+              alt="User Profile Image"
+            />
+          </div>
+          <div>
+            <div>
+              <h3>Jacob Thompson</h3>
+              <p>has joined your group <b class="group">Chess Club</b></p>
+              <button class="mark-as-read"></button>
+            </div>
+            <p class="timeNotification">1 day ago</p>
+            <p></p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt="User Profile Image"
+            />
+          </div>
+          <div>
+            <div>
+              <h3>Rizky Hasanuddin</h3>
+              <p>sent you a private message<b></b></p>
+              <button class="mark-as-read"></button>
+            </div>
+            <p class="timeNotification">5 days ago</p>
+            <p class="message">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img
+              src="./assets/images/avatar-kimberly-smith.webp"
+              alt="User Profile Image"
+            />
+          </div>
+          <div>
+            <div>
+              <h3>Kimberly Smith</h3>
+              <p>commented on your picture <b></b></p>
+              <button class="mark-as-read"></button>
+              <img src="./assets/images/image-chess.webp" alt="image of Chess">
+            </div>
+            <p class="timeNotification">1 week ago</p>
+            <p></p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img
+              src="./assets/images/avatar-nathan-peterson.webp"
+              alt="User Profile Image"
+            />
+          </div>
+          <div>
+            <div>
+              <h3>Nathan Peterson</h3>
+              <p>
+                reacted to your recent post
+                <b class="post"
+                  >5 end-game strategies to increase your win rate</b
+                >
+              </p>
+              <button class="mark-as-read"></button>
+            </div>
+            <p class="timeNotification">2 weeks ago</p>
+            <p></p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <img
+              src="./assets/images/avatar-anna-kim.webp"
+              alt="User Profile Image"
+            />
+          </div>
+          <div>
+            <div>
+              <h3>Anna Kim</h3>
+              <p>left the group <b class="group">Chess Club</b></p>
+              <button class="mark-as-read"></button>
+            </div>
+            <p class="timeNotification">2 weeks ago</p>
+            <p></p>
           </div>
         </li>
       </ol>

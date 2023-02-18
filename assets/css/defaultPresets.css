@@ -18,3 +18,8 @@ li {
 a {
     text-decoration: none;
 }
+
+.margin {
+    max-width: 50%;
+    margin: auto;
+}

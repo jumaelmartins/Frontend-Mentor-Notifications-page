@@ -1,0 +1,119 @@
+body {
+    padding: 5rem 0;
+    background-color: var(--Very-light-grayish-blue);
+}
+
+main {
+    background-color: var(--White);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+
+header > div > :nth-child(2) {
+    background-color: var(--Blue);
+    width: 2rem;
+    height: 2rem;
+    border-radius: .5rem;
+
+    color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > div > p{
+    margin: .5rem;
+}
+
+.unread {
+    background-color: var(--Light-grayish-blue-1);
+    border: 1px solid var(--Light-grayish-blue-2);
+}
+
+.post {
+    color: var(--Dark-grayish-blue);
+}
+
+.group {
+    color: var(--Blue);
+}
+
+.timeNotification {
+    color: var(--Grayish-blue);
+}
+
+.message {
+    width: 100%;
+    border: 1px solid var(--Grayish-blue);
+    padding: 1rem;
+    line-height: 2rem;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    color: var(--Dark-grayish-blue);
+}
+
+
+li {
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+
+li > :nth-child(1) {
+    display: flex;
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+li > :nth-child(2) {
+    display: flex;
+    margin: 0 1rem;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+
+li > :nth-child(2) > div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+li > :nth-child(2) > div > p {
+    margin: 0 .5rem;
+    color: var(--Dark-grayish-blue);
+}
+
+.unread > :nth-child(2) > div > button {
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--Red);
+    border: none;
+    border-radius: 2rem;
+}
+
+li > :nth-child(2) > div > img {
+    width: 3.2rem;
+    height: 3.2rem;
+    position: absolute;
+    right: 0;
+}
