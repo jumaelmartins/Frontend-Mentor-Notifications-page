@@ -11,7 +11,6 @@
 
 [x] - Pegar os elementos da tela com JS
 [X] - Criar função que zera o contador de notificação ao clicar no Mark All As Read
-
 [X] - Criar função que remove a classe unread ao clicar em mark all as read
-
 [X] - Criar função que remove a classe unread ao clicar na notificação especifica.
+[X] - Criar função que Decrementa o contador de notificacoes ao clicar na notificação especifica.
