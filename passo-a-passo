@@ -14,3 +14,8 @@
 [X] - Criar função que remove a classe unread ao clicar em mark all as read
 [X] - Criar função que remove a classe unread ao clicar na notificação especifica.
 [X] - Criar função que Decrementa o contador de notificacoes ao clicar na notificação especifica.
+
+[X] - Revisar projeto, ajustar css de acordo com o design, cores, hover e etc.
+[X] - Deixar a pagina responsiva para todas as telas.
+[] - Revisar HTML semantico e acessibilidade.
+[] - Documentar o Projeto Atraves do Readme.

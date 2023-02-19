@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-.margin {
-    max-width: 50%;
-    margin: auto;
+p, h3 {
+    font-size: 1.6rem;
 }
+

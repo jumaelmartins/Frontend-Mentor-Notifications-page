@@ -1,6 +1,23 @@
 const noticationsCounter = document.querySelector("#notications");
 const markAsRead = document.querySelector("#mark-as-read");
 const unreadNotifications = document.querySelectorAll("li");
+const main = document.querySelector("main");
+const footer = document.querySelector("footer")
+
+window.addEventListener("resize", (e) => {
+    removeMargin();
+});
+
+const removeMargin = () => {
+    if (window.innerWidth < 600) {
+        main.classList.remove("margin");
+        footer.classList.remove("margin");
+      } else {
+        main.classList.add("margin");
+        footer.classList.add("margin");
+      }
+}
+
 
 const cleanNotifications = () => {
   markAsRead.addEventListener("click", (e) => {
@@ -43,6 +60,7 @@ const decrementCounterByClickNotification = () => {
 const init = () => {
   cleanNotifications();
   removeUnreadClassByClick();
+  removeMargin();
 };
 
 init();
