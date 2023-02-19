@@ -8,3 +8,6 @@
 [X] - Inciar Repositorio / Fazer Primeiro Commit.
 [X] - Criar Estrutura Inicial Html
 [X] - Criar estilização
+
+[x] - Pegar os elementos da tela com JS
+[] - Criar função que zera o contador de notificação ao clicar no Mark All As Read

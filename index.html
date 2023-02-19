@@ -24,9 +24,9 @@
       <header>
         <div>
           <p>Notifications</p>
-          <p>3</p>
+          <p id="notications">3</p>
         </div>
-        <p>Mark all as read</p>
+        <p id="mark-as-read">Mark all as read</p>
       </header>
 
       <ol>
@@ -98,7 +98,7 @@
             <div>
               <h3>Rizky Hasanuddin</h3>
               <p>sent you a private message<b></b></p>
-              <button class="mark-as-read"></button>
+              <button class="hidden"></button>
             </div>
             <p class="timeNotification">5 days ago</p>
             <p class="message">
@@ -120,8 +120,16 @@
             <div>
               <h3>Kimberly Smith</h3>
               <p>commented on your picture <b></b></p>
-              <button class="mark-as-read"></button>
-              <img src="./assets/images/image-chess.webp" alt="image of Chess">
+
+              <button class="hidden"></button>
+              <div>
+                <img
+                  width="32"
+                  height="32"
+                  src="./assets/images/image-chess.webp"
+                  alt="image of Chess"
+                />
+              </div>
             </div>
             <p class="timeNotification">1 week ago</p>
             <p></p>
@@ -144,7 +152,7 @@
                   >5 end-game strategies to increase your win rate</b
                 >
               </p>
-              <button class="mark-as-read"></button>
+              <button class="hidden"></button>
             </div>
             <p class="timeNotification">2 weeks ago</p>
             <p></p>
@@ -162,7 +170,7 @@
             <div>
               <h3>Anna Kim</h3>
               <p>left the group <b class="group">Chess Club</b></p>
-              <button class="mark-as-read"></button>
+              <button class="hidden"></button>
             </div>
             <p class="timeNotification">2 weeks ago</p>
             <p></p>
@@ -171,7 +179,7 @@
       </ol>
     </main>
 
-    <footer>
+    <footer class="margin">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a

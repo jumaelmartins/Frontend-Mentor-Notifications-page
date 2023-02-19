@@ -7,6 +7,14 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
 html {
     font-size: 62.5%;
 }
