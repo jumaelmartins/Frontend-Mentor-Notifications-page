@@ -2,22 +2,21 @@ const noticationsCounter = document.querySelector("#notications");
 const markAsRead = document.querySelector("#mark-as-read");
 const unreadNotifications = document.querySelectorAll("li");
 const main = document.querySelector("main");
-const footer = document.querySelector("footer")
+const footer = document.querySelector("footer");
 
 window.addEventListener("resize", (e) => {
-    removeMargin();
+  removeMargin();
 });
 
 const removeMargin = () => {
-    if (window.innerWidth < 600) {
-        main.classList.remove("margin");
-        footer.classList.remove("margin");
-      } else {
-        main.classList.add("margin");
-        footer.classList.add("margin");
-      }
-}
-
+  if (window.innerWidth < 600) {
+    main.classList.remove("margin");
+    footer.classList.remove("margin");
+  } else {
+    main.classList.add("margin");
+    footer.classList.add("margin");
+  }
+};
 
 const cleanNotifications = () => {
   markAsRead.addEventListener("click", (e) => {
@@ -37,12 +36,10 @@ const removeUnreadClassByClick = () => {
     item.addEventListener("click", (e) => {
       const notification = item.closest("li");
 
-      decrementCounterByClickNotification();
-
       if (notification.classList.contains("unread")) {
         notification.classList.remove("unread");
       }
-      return;
+      decrementCounterByClickNotification();
     });
   });
 };
@@ -54,7 +51,10 @@ const decrementCounterByClickNotification = () => {
     }
   );
 
-  noticationsCounter.innerHTML = notificationUnreadCounter.length - 1;
+  let count = notificationUnreadCounter.length;
+
+  noticationsCounter.innerHTML = count;
+  console.log(notificationUnreadCounter);
 };
 
 const init = () => {
