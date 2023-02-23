@@ -86,7 +86,7 @@ const decrementCounterByClickNotification = () => {
 
 - [Documentacao](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener) - Documentação site MDN JS addEventListener.
 - [Documentacao](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) - Documentação site MDN JS forEach.
-- [Documentacao](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList) - Documentação site MDN JS classList. curso 
+- [Documentacao](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList) - Documentação site MDN JS classList.
 - [ChatGPT](https://chat.openai.com/chat) - É uma ferramenta excellente tem me ajudado bastante a tirar duvidas.
 
 ## Author
